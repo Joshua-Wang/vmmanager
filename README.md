@@ -1,5 +1,5 @@
 # vmmanager
-virtual machine management system
+virtual machine management system. 
 This system implements two functions:
 1. a web portal for manage Eucalyptus VMS. 
 2. a IAAS-level VM trading system.
