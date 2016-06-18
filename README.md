@@ -11,3 +11,5 @@ This system implements user management for both ordinary users and system admins
 1. Ordinary users can apply get registered and apply for virtual machines(the CPUS,memory,disk can be configured during apply process).
 System admins can authorize vms to ordinary users. The VMs are created through Eucalyptus, a IAAS-level platform.
 After authorized , ordinary users can use VMs from remote terminals. 
+
+2. through vmmanager, System admins can manage VMs from the website, such as (start, shutdown, reboot) , and get VMs reconfigured.
