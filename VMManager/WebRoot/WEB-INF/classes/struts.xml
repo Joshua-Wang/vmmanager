@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<include file="struts-default.xml"></include>
+	<package name="vammanager" extends="json-default" namespace="">
+		<action name="Login" class="cn.ac.iscas.vmmanager.Action.LoginAction">
+			<result name="user_index" type="chain">Service</result>
+			<result name="admin_index">/admin_frame.jsp</result>
+			<result name="user_input">/user_login.jsp</result>
+			<result name="admin_input">/admin_login.jsp</result>
+		</action>
+		<action name="Register" class="cn.ac.iscas.vmmanager.Action.RegisterAction">
+			<result name="input_step1">/register_step1.jsp</result>
+			<result name="input_step2">/register_step2.jsp</result>
+			<result name="input_step3">/register_step3.jsp</result>
+		</action>
+		<action name="Admin" class="cn.ac.iscas.vmmanager.Action.AdminAction">
+			<result name="show">/Configure/conf_viewAdmin.jsp</result>
+			<result name="input">/Configure/conf_newAdmin.jsp</result>
+			<result name="update">/Configure/conf_viewAdmin.jsp</result>
+		</action>
+		<action name="Service" class="cn.ac.iscas.vmmanager.Action.ServiceAction">
+			<result name="user_index">/user_index.jsp</result>
+			<result name="input">/Iaas_apply.jsp</result>
+			<result name="user_app">/Configure/conf_userApp.jsp</result>
+			<result name="top">admin_top.jsp</result>
+		</action>
+		<action name="Resource" class="cn.ac.iscas.vmmanager.Action.ResourceAction">
+			<result name="success">/Configure/conf_resource.jsp</result>
+		</action>
+		<action name="Image" class="cn.ac.iscas.vmmanager.Action.ImageAction">
+			<result name="success">/Configure/conf_image.jsp</result>
+		</action>
+		<action name="Keypair" class="cn.ac.iscas.vmmanager.Action.KeypairAction">
+			<result name="success">/Configure/conf_keypair.jsp</result>
+		</action>
+		<action name="Instance" class="cn.ac.iscas.vmmanager.Action.InstanceAction">
+			<result name="success">/Configure/conf_instance.jsp</result>
+		</action>
+		<action name="Volume" class="cn.ac.iscas.vmmanager.Action.VolumeAction">
+			<result name="success">/Configure/conf_volume.jsp</result>
+		</action>
+		<action name="Network" class="cn.ac.iscas.vmmanager.Action.NetworkAction">
+			<result name="success">/Configure/conf_network.jsp</result>
+		</action>
+		<action name="ServiceAdmin" class="cn.ac.iscas.vmmanager.Action.ServiceAdmin">
+			<result name="user_index" type="chain">Service</result>
+		</action>
+	</package>
+</struts>    

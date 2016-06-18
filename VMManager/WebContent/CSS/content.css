@@ -1,0 +1,17 @@
+
+.text
+{
+	font: 15px sans-serif;
+	color:#000000;
+}
+
+.text h3 {
+	text-align:center;
+	font: bold 1.3em sans-serif;
+	color:blue;
+}
+
+.img{
+	margin:20px 50px;
+	float:left;
+}

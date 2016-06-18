@@ -1,0 +1,19 @@
+
+.container{
+	width:800px;
+	margin:0px auto;
+	background-color:#D2E9FF;
+	margin-top:80px;
+	padding-bottom:15px;
+}
+
+.img{
+	float:left;
+	margin-left:40px;
+	/* margin-top:80px; */
+}
+
+.form{
+	margin-left:20px;
+	/* margin-top:80px; */
+}

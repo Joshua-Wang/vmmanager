@@ -1,0 +1,17 @@
+.content{
+	float:left;
+	width:200px;
+	height:200px;
+	margin:10px 11px;
+}
+
+.content img{
+	align:bottom;
+	margin:0px 0 10px 0;
+	padding-left:45px;
+}
+
+.content p{
+	font: 15px sans-serif;
+	color:#000000;
+}

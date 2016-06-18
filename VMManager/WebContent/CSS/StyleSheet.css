@@ -1,0 +1,28 @@
+﻿#messagebox_table
+{
+	border-right: dimgray thick solid;
+	border-top: dimgray thick solid;
+	border-left: dimgray thick solid;
+	border-bottom: dimgray thick solid;
+	background-color: buttonface;
+}
+#messagebox_title_table
+{
+	border-right: #ffffff 1px ridge;
+	border-top: #ffffff 1px ridge;
+	font-weight: bold;
+	font-size: small;
+	border-left: #ffffff 1px ridge;
+	color: #ffffff;
+	border-bottom: #ffffff 1px ridge;
+	background-color: navy;
+}
+#messagebox_close
+{
+	border-right: #ffffff 1px solid;
+	border-top: #ffffff 1px solid;
+	border-left: #ffffff 1px solid;
+	width: 16px;
+	border-bottom: #ffffff 1px solid;
+	height: 16px;
+}

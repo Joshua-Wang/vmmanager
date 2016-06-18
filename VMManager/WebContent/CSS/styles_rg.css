@@ -1,0 +1,198 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #963;}
+a:hover {color: #C60;}
+
+body {
+	color: #444;
+	font: normal 11px Arial, Helvetica, sans-serif;
+}
+
+.title
+{
+font-size: 24px;
+}
+
+p,code,ul {padding-bottom: 1.2em;}
+
+li {list-style: none;}
+
+h1 {
+	font: normal 14px Arial, Helvetica, sans-serif;
+	margin-bottom: 4px;
+}
+
+h1,h2,h3 {padding-top: 6px; color: #126DA2}
+
+.clear {clear: both;}
+
+structure
+.container {
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+	
+}
+
+/* header */
+.top {
+	background: url(../images/clouds.jpg) repeat-x;
+	padding: 90px 10px 0;
+}
+
+/* title */
+.header {
+	font-size: 14px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 10px 10px 5px;
+	width: 780px;
+}
+
+#logo {
+	width: 780px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(../images/header.jpg) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+}
+
+#logo h1 {
+	padding: 90px 5px 0 25px;
+	font-size: 18px;
+	color: #0272BA;
+}
+
+#logo h2 {
+	padding: 0px 0 0 25px;
+	font-size: 11px;
+	color: #0272BA;
+}
+
+
+#logo a {
+	color: #0272BA;
+}
+
+/* navigation */
+.navigation {	
+	background: #D9E1E5 url(../images/menu.gif);
+	border: 1px solid #DFEEF7;
+	height: 41px;
+	margin-top:40px;
+	overflow:auto;
+	clear:both;
+}
+.navigation #nav-menu{
+	float:left;
+}
+.navigation #nav-logo{
+	float:right;
+}
+.navigation a {
+	background: #D9E1E5 url(../images/menu.gif);
+	border-right: 1px solid #ffffff;
+	color: #ffffff;
+	display: block;
+	float: left;
+	font: bold 1.1em sans-serif;
+	line-height: 41px;
+	padding: 0 20px;
+	text-decoration: none;
+}
+.navigation a:hover {background: #319EDD; color: #ffffff; text-decoration: underline}
+
+.navigation img{
+	float:right;
+	height:101px;
+	width:220px;
+	margin-right:100px;
+	margin-top:0;
+	border:0;
+	position:absolute;
+	index-z:1000;
+	top:10px;
+	right:0px;
+}
+/* main */
+.main {
+	border-top: 4px solid #FFF;
+	background: url(../images/bgmain.gif) repeat-y;
+}
+
+/* sub navigation */
+.sidenav {
+	float: right;
+	width: 210px;
+}
+.sidenav h2 {
+	color: #5A5A43;
+	font-size: 1.3em;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 12px;
+}
+.sidenav ul {
+	padding: 0;
+	border-top: 1px solid #EAEADA;
+}
+.sidenav li {border-bottom: 1px solid #EAEADA;}
+.sidenav li a {
+	font-size: 1.1em;
+	color: #554;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+.sidenav li a:hover {
+	background: #DCEFFF;
+	color: #654;	
+}
+
+/* content */
+.content {
+	float: left;
+	margin: 10px 0;
+	padding: 0 16px;
+	width: 531px;
+}
+.content .descr {
+	color: #664;
+	font-size: 0.9em;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(../images/li.gif);
+	margin-left: 18px;
+}
+.content p {font-family: Arial, Helvetica, sans-serif;}
+
+/* footer */
+#footer {
+	background: url(../images/bgfooter.gif) repeat-x;
+	color: #FFF;
+	font: bold 20px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+#footer p
+{
+padding: 0px;
+margin: 0px;
+}
+#footer a, #footer a:hover {color: #FFF;}
